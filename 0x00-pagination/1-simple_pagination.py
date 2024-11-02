@@ -7,7 +7,7 @@ from typing import List, Tuple
 
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """Returns tuple of size two containing  start index and end
-    index corresponding to the range of indexes to return in 
+    index corresponding to the range of indexes to return in
     a list for the given pagination parameters.
 
     Args:
@@ -17,7 +17,7 @@ def index_range(page: int, page_size: int) -> Tuple[int, int]:
     Returns:
         Tuple[int, int]: start and end indexes of current page.
     """
-    # calculate start index by subtracting 1 from the current 
+    # calculate start index by subtracting 1 from the current
     # page number and then multiplying by the page size
     start_index = (page - 1) * page_size
     # calculate end index by adding the start index to the page size
