@@ -46,7 +46,7 @@ class Server:
         return self.__indexed_dataset
 
     def get_hyper_index(self, index: int = None, page_size: int = 10) -> Dict:
-        """Retrieves a specific page of the dataset of popular 
+        """Retrieves a specific page of the dataset of popular
         baby names by index.
 
         Args:
